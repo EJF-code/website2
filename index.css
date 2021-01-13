@@ -2,16 +2,25 @@
 
 }
 
-.banner {
+/* .banner {
   height: 500px;
   width: 1503px;
   background-image: url(images/1komoks.jpg);
+} */
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-size: 150%;
+  font-family: 'Arbutus Slab', serif;
 }
 
-.statement {
-  font-size: 40px;
-  text-align: center;
-  font-family: 'Arbutus Slab', serif;
+.centered {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
   header {
@@ -42,7 +51,7 @@
     font-family: Arial, Helvetica;
     line-height: 3;
     font-size: 20px
-    text-align: justify;
+    text-align: left;
     border: 5px solid green;
     margin: 40px;
     padding: 20px;
