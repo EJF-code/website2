@@ -1,0 +1,97 @@
+* {
+
+}
+
+.banner {
+  height: 500px;
+  width: 1503px;
+  background-image: url(images/1komoks.jpg);
+}
+
+.statement {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Arbutus Slab', serif;
+}
+
+  header {
+    color: white;
+    background-color: #7286C9;
+    text-shadow: 5px 2px 0 black;
+    font-size: 80px;
+    font-family: 'Girassol', cursive;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 4px;
+    /* margin-right: 30px;
+    margin-left: 30px; */
+  }
+
+
+  body {
+    background-color: #3333;
+    color: rgb(0, 0, 0);
+    font-family: Helvetica, Arial;
+    /* text-align: center; */
+    /* font-weight: bold; */
+  }
+
+  p {
+    color: black;
+    background-color: white;
+    font-family: Arial, Helvetica;
+    line-height: 3;
+    font-size: 20px
+    text-align: justify;
+    border: 5px solid green;
+    margin: 40px;
+    padding: 20px;
+    /* margin-top: 0px
+    margin-bottom:0px;
+    margin-right: 0px;
+    margin-left: 0px; */
+  }
+
+   h1, h2, h3 {
+    /* border-bottom: 2px solid black; */
+    /* border: 2px dashed black;  */
+    padding: 30px;
+  }
+
+
+  ul, ol {
+    color: white;
+    font-size: 20pt;
+    background-color: #98BF64;
+    border: 1px solid green;
+    margin: 15px;
+    padding: 20px;
+  }
+
+  /* img {
+    padding: 20px; */
+
+
+  footer {
+    color: black;
+  }
+
+  /* a:link,
+  a:focus,
+  a:active {
+    color:
+  } */
+
+  a {
+    color: #354A21;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: #7286C9;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #7286C9;
+  }
