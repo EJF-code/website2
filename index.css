@@ -2,11 +2,51 @@
 
 }
 
+/* start of menu  */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/* html {
+  height:100%;
+  background-image: linear-gradient(to right top, #8e44ad 0%, #3498db 100%);
+} */
+nav {
+  max-width: 100%;
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 auto;
+  padding: 0px 0;
+}
+nav ul {
+  text-align: center;
+  padding: 0px 0px 0px 30px;
+  background: linear-gradient(90deg, rgba(255, 255 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  padding: 28px;
+  font-family: "Open Sans";
+  text-transform:uppercase;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+}
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 35, 122, 0.7);
+}
+/* end of menu */
+
+
 /* .banner {
   height: 500px;
   width: 1503px;
   background-image: url(images/1komoks.jpg);
 } */
+
+/* start of sentence overlay */
 
 .container {
   position: relative;
@@ -22,6 +62,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* end of sentence overlay */
 
   header {
     color: white;
@@ -52,7 +94,7 @@
     line-height: 3;
     font-size: 20px
     text-align: left;
-    border: 5px solid green;
+    border: 1px solid green;
     margin: 40px;
     padding: 20px;
     /* margin-top: 0px
@@ -67,15 +109,14 @@
     padding: 30px;
   }
 
-
-  ul, ol {
-    color: white;
-    font-size: 20pt;
+  /* ul, ol {
+    color: black;
+    font-size: 15pt;
     background-color: #98BF64;
     border: 1px solid green;
     margin: 15px;
-    padding: 20px;
-  }
+    padding: 75px;
+  } */
 
   /* img {
     padding: 20px; */
@@ -101,6 +142,6 @@
     text-decoration: none;
   }
 
-  a:visited {
+  /* a:visited {
     color: #7286C9;
-  }
+  } */
