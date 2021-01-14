@@ -11,29 +11,30 @@
 nav {
   max-width: 100%;
   mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
-  margin: 0 auto;
-  padding: 0px 0;
+  margin: 30px;
+  padding: 0;
 }
 nav ul {
   text-align: center;
   padding: 0px 0px 0px 30px;
   background: linear-gradient(90deg, rgba(255, 255 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  /* box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6); */
 }
 nav ul li {
   display: inline-block;
 }
 nav ul li a {
   padding: 28px;
-  font-family: "Open Sans";
-  text-transform:uppercase;
+  font-family: 'Girassol', cursive, "Open Sans";
+  text-transform: uppercase;
   color: black;
-  font-size: 20px;
+  font-size: 30px;
   text-decoration: none;
-  display: block;
+  /* display: block; */
+  letter-spacing: 3px;
 }
 nav ul li a:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6); */
   background: rgba(255, 255, 255, 0.1);
   color: rgba(0, 35, 122, 0.7);
 }
@@ -43,23 +44,23 @@ nav ul li a:hover {
 /* .banner {
   height: 500px;
   width: 1503px;
-  background-image: url(images/1komoks.jpg);
+  background-image: url(images/1panel.jpg);
 } */
 
 /* start of sentence overlay */
 
 .container {
   position: relative;
-  text-align: center;
+  /* text-align: center; */
   color: black;
-  font-size: 150%;
+  font-size: 145%;
   font-family: 'Arbutus Slab', serif;
 }
 
 .centered {
   position: absolute;
-  top: 25%;
-  left: 50%;
+  top: 20%;
+  left: 40%;
   transform: translate(-50%, -50%);
 }
 
