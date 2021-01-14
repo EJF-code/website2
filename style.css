@@ -8,12 +8,11 @@
   /* margin can be in pixels or percantage */
   /* border: 1px solid green; */
 
-
-.banner {
+/* .banner {
   height: 500px;
   width: 1503px;
   background-image: url(images/1wier.jpg);
-}
+} */
 
 header {
   color: white;
@@ -26,7 +25,10 @@ header {
 }
 
 body {
-  background-color: #3333;
+  /* background-color: #3333; */
+  background-image: url(images/hand.jpg);
+  /* background-size: cover; */
+  background-repeat: no-repeat;
   color: rgb(100, 20, 60);
   font-family: Helvetica, Arial;
   font-size: 14px;
@@ -35,7 +37,7 @@ body {
 }
 
 h1 {
-  color: #354A21;
+  color: white;
   font-family: Helvetica, Arial;
   font-size: 36px;
   font-weight: 800;
@@ -137,4 +139,19 @@ a:visited {
 
 .img1 {
   border: 5px solid black;
+}
+
+.container2 {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.box {
+  border: 1px solid red;
+  background-image: url(images/pebbles.jpg);
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 450px;
+  image-align: center;
+  /* text-align: center; */
 }
