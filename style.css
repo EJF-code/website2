@@ -6,29 +6,37 @@
   /* box-sizing: content-box; */
 }
   /* margin can be in pixels or percantage */
-  /* border: 1px solid green; */
 
-/* .banner {
-  height: 500px;
-  width: 1503px;
-  background-image: url(images/1wier.jpg);
-} */
+/* background-size: cover or 100% */
+.banner {
+  max-width: 100%;
+  height: 350px;
+  background-image: url(review/banner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.caption {
+  color: Darkslateblue;
+  margin-top: -300px;
+  margin-bottom: 300px;
+}
 
 header {
-  color: white;
+  color: black;
   background-color: #7286C9;
   font-size: 70px;
   font-family: 'Girassol', cursive;
   line-height: 1;
   text-align: center;
-  margin: 30px;
+  /* margin: 30px; */
 }
 
 body {
   /* background-color: #3333; */
-  background-image: url(images/hand.jpg);
+  background-image: url(review/watercolor.png);
   /* background-size: cover; */
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   color: rgb(100, 20, 60);
   font-family: Helvetica, Arial;
   font-size: 14px;
@@ -37,7 +45,7 @@ body {
 }
 
 h1 {
-  color: white;
+  color: black;
   font-family: Helvetica, Arial;
   font-size: 36px;
   font-weight: 800;
@@ -132,7 +140,7 @@ a:visited {
 } */
 
 .title {
-  color: red;
+  color: #7286C9;
   font-size: 100%;
   text-align: center;
 }
@@ -150,8 +158,8 @@ a:visited {
   border: 1px solid red;
   background-image: url(images/pebbles.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   width: 500px;
   height: 450px;
-  image-align: center;
   /* text-align: center; */
 }
