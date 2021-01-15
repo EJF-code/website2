@@ -75,16 +75,16 @@ nav ul li a:hover {
   .welcome {
       color: black;
       background-color: white;
-      font-family: 'Harmattan', sans-serif;
+      font-family: 'Marmelad', sans-serif;
       line-height: 2;
-      font-size: 28px;
+      font-size: 21px;
       border: 6px solid #FA8072;
       border-radius: 5px;
       margin: 20px;
       margin-bottom: 0px;
       padding-top: 5px;
-      padding-right: 5px;
-      padding-bottom: 5px;
+      padding-right: 7px;
+      padding-bottom: 15px;
       padding-left: 20px;
       opacity: 80%;
       width: 75%;
@@ -97,7 +97,9 @@ nav ul li a:hover {
     letter-spacing: 5px;
     text-align: right;
     margin-right: 100px;
+    margin-top: -100px;
     margin-bottom: 0;
+    padding-top: 200px;
     border-right: 20px dotted white;
     border-bottom:  20px dotted #7286C9;
     font-size: 100px;
@@ -109,6 +111,8 @@ nav ul li a:hover {
     text-shadow: 6px 2px 0px #FA8072;
     letter-spacing: 5px;
     text-align: left;
+    padding-top: 90px;
+    margin-top: -0;
     margin-left: 100px;
     margin-bottom: 0;
     border-left: 20px dotted white;
@@ -122,21 +126,11 @@ nav ul li a:hover {
     text-shadow: 6px 2px 0px #79CDCD;
     letter-spacing: 5px;
     text-align: right;
+    padding-top: 90px;
+    margin-top: -0;
     margin-right: 100px;
     margin-bottom: 0;
     border-right: 20px dotted white;
-    border-bottom:  20px dotted #7286C9;
-    font-size: 100px;
-    font-family: 'Arbutus Slab', serif;
-}
-
-  .reserves {
-    color: black;
-    text-shadow: 6px 2px 0px #98BF64;
-    letter-spacing: 5px;
-    text-align: left;
-    margin-right: 100px;
-    border-left: 20px dotted white;
     border-bottom:  20px dotted #7286C9;
     font-size: 100px;
     font-family: 'Arbutus Slab', serif;
@@ -157,6 +151,19 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 
+ /* sites page */
+  .reserves {
+    color: black;
+    text-shadow: 6px 2px 0px #98BF64;
+    letter-spacing: 5px;
+    text-align: left;
+    margin-right: 100px;
+    border-left: 20px dotted white;
+    border-bottom:  20px dotted #7286C9;
+    font-size: 100px;
+    font-family: 'Arbutus Slab', serif;
+}
+
   body {
     background-color: #3333;
     color: rgb(0, 0, 0);
@@ -169,14 +176,15 @@ nav ul li a:hover {
   p {
     color: black;
     background-color: white;
-    font-family: 'Harmattan', sans-serif;
-    font-size: 26px;
+    /* font-family: 'Harmattan', sans-serif; */
+    font-family: 'Marmelad', sans-serif;
+    font-size: 20px;
     line-height: 2;
     border: 5px solid #7286C9;
     border-radius: 5px;
-    margin: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
+    /* margin: 30px; */
+    margin-left: 200px;
+    margin-right: 200px;
     padding: 40px;
   }
 
