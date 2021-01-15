@@ -225,8 +225,8 @@ ol {
   border-radius: 5px;
   padding: 5px;
   text-align: center;
-  padding-left: 20px;
-  padding-right:20px;
+  /* padding-left: 20px;
+  padding-right:20px; */
 }
 
   footer {
