@@ -90,7 +90,7 @@ nav ul li a:hover {
       width: 75%;
     }
 
-/* p one */
+/* p green border */
   .territory {
     color: black;
     text-shadow: 6px 2px 0px #98BF64;
@@ -105,7 +105,7 @@ nav ul li a:hover {
     font-size: 100px;
     font-family: 'Arbutus Slab', serif;
 }
-/* p two */
+/* p orange border */
   .pentlatch {
     color: black;
     text-shadow: 6px 2px 0px #FA8072;
@@ -120,7 +120,7 @@ nav ul li a:hover {
     font-size: 100px;
     font-family: 'Arbutus Slab', serif;
 }
-/* p three */
+/* p blue border */
   .nsalish {
     color: black;
     text-shadow: 6px 2px 0px #79CDCD;
@@ -136,17 +136,17 @@ nav ul li a:hover {
     font-family: 'Arbutus Slab', serif;
 }
 
-.one {
+.green {
   border: 5px solid #98BF64;
   border-radius: 5px;
 }
 
-.two {
+.orange {
   border: 5px solid #FA8072;
   border-radius: 5px;
 }
 
-.three {
+.blue {
   border: 5px solid #79CDCD;
   border-radius: 5px;
 }
@@ -284,12 +284,12 @@ ol {
 
 img {
     max-width:70%;
-    margin-left: 200px;
+    margin-left: 220px;
   }
 
 .end {
   max-width: 100%;
-  margin-top: -10px;
+  margin-top: -50px;
   border-bottom: 100px solid #7286C9;
 }
 
@@ -321,7 +321,7 @@ img {
   }
 
   a:hover {
-    color: #7286C9;
+    color: #FA8072;
     text-decoration: none;
   }
 
